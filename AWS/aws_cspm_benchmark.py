@@ -38,7 +38,7 @@ def parse_args():
         description="Analyze AWS accounts and regions for EC2 instances and Kubernetes nodes.")
     parser.add_argument(
         "-r", "--role_name",
-        default="OrganizationAccountAccessRole",
+        default="AWSReservedSSO_AdministratorAccess_334a85f6f65a0f9c",
         help="Specify a custom role name to assume into.")
     return parser.parse_args()
 
